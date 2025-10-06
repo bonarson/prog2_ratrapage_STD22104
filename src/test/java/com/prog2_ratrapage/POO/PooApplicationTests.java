@@ -66,7 +66,7 @@ class PooApplicationTests {
 
 	@Test
 	void testAfficherPublicationEtUserSendMessagePublication() {
-		// Préparation
+
 		UtilisateurInscrit user = new UtilisateurInscrit("002", "Marie", "Rasoanaivo", "marie@email.com");
 		Publication publication = new Publication("PUB002", user);
 
